@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Spicy+Rice&display=swap');
+
+html {
+    background-color: black;
+    color: khaki;
+    font-family: 'Exo 2';
+    font-size: xx-large;
+}
+
+#start {
+    font-family: 'Spicy Rice';
+    display: block;
+    margin: auto;
+    height: 4rem;
+    width: 8rem;
+    font-size: 2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#game {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.but {
+    height: 50px;
+    width: 50px;
+    font-size: small;
+    padding: 0;
+    border-style: solid;
+    border-radius: 0;
+    border-width: 2px;
+}
+
+.win {
+    color: lightgreen;
+}
+
+.tie {
+    color: lightcoral;
+}
